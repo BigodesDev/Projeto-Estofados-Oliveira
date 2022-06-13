@@ -1,0 +1,50 @@
+.fundo-img {
+  background-image: url(../../../assets//images//ImagemContato.jpg);
+  min-height: 200px;
+  margin-top: 6px;
+  position: sticky;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+}
+.h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  text-transform: inherit;
+  padding: 35px 0 0;
+  color: rgba(82, 76, 76, 0.836);
+  animation: text 2s 1;
+}
+
+@keyframes text {
+  0% {
+    color: white;
+    margin-bottom: -10px;
+  }
+  30% {
+    letter-spacing: 10px;
+    margin-bottom: -10px;
+  }
+}
+.paragrafo ul {
+  margin: 0px;
+  padding: 0px;
+}
+.paragrafo ul li {
+  list-style: none;
+  text-align: center;
+  color: rgba(82, 76, 76, 0.836);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  animation: text1 2s 1;
+}
+@keyframes text1 {
+  0% {
+    color: white;
+    margin-bottom: -40px;
+  }
+}

@@ -1,0 +1,29 @@
+.body-sobre{
+    background-color:rgba(242,242,242) ;
+}
+.title-sobre{
+    color: rgba(82, 76, 76, 0.836);
+    font-weight: 500;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.nav-sobre{
+    display: flex;
+    margin-left: 86px;
+    margin-right: 80px
+}
+.img-sobre{
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 35px;
+}
+
+.section-sobre{
+    
+    font-family: 'Raleway', sans-serif;
+}
+.section-sobre p{
+    margin-top: 10px;
+}

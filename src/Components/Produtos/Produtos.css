@@ -1,0 +1,396 @@
+.sec{
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(242,242,242);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 35px;
+}
+
+.titulo-product {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  text-transform: inherit;
+  padding-top: 35px;
+  margin-bottom: 0px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+.titulo-products {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-transform: inherit;
+  margin: 0px;
+  padding-top: 70px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+.titulo-productss {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-transform: inherit;
+  margin: 0px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+
+figure{
+    margin: 0;
+}
+
+
+.ul {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 0;
+  }
+  
+  .li {
+    background-color: rgb(242,242,242);
+    color: #000;
+    font-family: 'raleway';
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+
+  }
+
+  .lia {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .imagess{
+      width: 1440px;
+      max-width: 100%;
+}
+
+ @media (max-width: 767px){
+  .imagess{
+        width: 270px;
+        max-width: 100%;
+  }
+  .lia{
+      width: 270px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 270px;
+    max-width: 100%;
+  }
+}
+
+  @media (max-width: 714px){
+    .sec{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 611px){
+    .imagess{
+        width: 260px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 260px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 260px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 591px){
+    .imagess{
+        width: 250px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 250px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 250px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 571px){
+    .imagess{
+        width: 240px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 240px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 240px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 551px){
+    .imagess{
+        width: 230px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 230px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 230px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 534px){
+    .titulo-products {
+      font-size: 30px;
+    }
+
+    .titulo-productss{
+      font-size: 30px;
+    }
+
+    .titulo-product {
+      font-size: 40px;
+    }
+    
+  }
+
+
+  @media (max-width: 531px){
+    .imagess{
+        width: 220px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 220px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 220px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 511px){
+    .imagess{
+        width: 210px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 210px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 210px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 491px){
+    .imagess{
+        width: 200px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 200px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 200px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 471px){
+    .imagess{
+        width: 190px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 190px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 190px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 451px){
+    .imagess{
+        width: 180px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 180px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 180px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 431px){
+    .imagess{
+        width: 170px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 170px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 170px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 411px){
+    .imagess{
+        width: 160px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 160px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 160px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 391px){
+    .imagess{
+        width: 150px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 150px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 150px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 371px){
+    .imagess{
+        width: 140px;
+        max-width: 100%;
+    }
+    .lia{
+      width: 140px;
+      max-width: 100%;
+  }
+  .ul{
+    width: 140px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 364px){
+    .imagess{
+        width: auto;
+        max-width: 100%;
+    }
+    .lia{
+      width: auto;
+      max-width: 100%;
+  }
+  .ul{
+    width: auto;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 319px){
+    .sec{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  }
+@media (max-width:300px){
+  .imagess{
+    width:  276px;
+    max-width: 100%;
+}
+
+  .lia{
+    width: 276px;
+    max-width: 100%;
+}
+.ul{
+  width:  276px;
+  max-width: 100%;
+}
+}
+@media (max-width:290px){
+  .imagess{
+    width:  266px;
+    max-width: 100%;
+}
+
+  .lia{
+    width: 266px;
+    max-width: 100%;
+}
+.ul{
+  width:  266px;
+  max-width: 100%;
+}
+}
+
+  @media (max-width: 280px){
+    .sec{
+        padding-left: 5px;
+        padding-right: 5px;
+        /* width: 280px; */
+    }
+    .imagess{
+      width:  260px;
+      max-width: 100%;
+  }
+  
+    .lia{
+      width: 260px;
+      max-width: 100%;
+  }
+  .ul{
+    width:  260px;
+    max-width: 100%;
+  }
+    
+  }
+
+  @media (max-width: 236px){
+    .titulo-products {
+      font-size: 20px;
+    }
+    .titulo-product{
+      font-size: 30px;
+    }
+    
+  }

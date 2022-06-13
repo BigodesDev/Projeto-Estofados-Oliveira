@@ -1,0 +1,1305 @@
+/* ------------------------------------------------- Responsividade */
+@media only screen and (max-width: 1440px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+
+  .alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgba(3, 3, 3, 0.712);
+  }
+
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botao {
+    background-color: Transparent;
+    border-style: double;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-family: "Raleway";
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+  }
+  #form {
+    padding: 5px 0px 5px 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  /* --------------------------------------------------- Parte debaixo Corpo */
+  .contato-header nav ul li a {
+    text-decoration: none;
+  }
+  .corpo-contato {
+    display: flex;
+    padding: 0 80px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+
+  .alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgba(3, 3, 3, 0.712);
+  }
+
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botao {
+    background-color: Transparent;
+    border-style: double;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-family: "Raleway";
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+  }
+  #form {
+    padding: 5px 0px 5px 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  /* --------------------------------------------------- Parte debaixo Corpo */
+  .contato-header nav ul li a {
+    text-decoration: none;
+  }
+  .corpo-contato {
+    display: flex;
+    padding: 0 80px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .alinhamento {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .maps {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: inherit;
+    padding: 10px 0 0;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 10px;
+      margin-bottom: -10px;
+    }
+  }
+  .paragrafo ul li {
+    list-style: none;
+    text-align: center;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
+    animation: text1 2s 1;
+  }
+  @keyframes text1 {
+    0% {
+      color: white;
+      margin-bottom: -40px;
+    }
+  }
+  .alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .maps {
+    width: 420px;
+  }
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgba(3, 3, 3, 0.712);
+  }
+
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botao {
+    background-color: Transparent;
+    border-style: double;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-family: "Raleway";
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+  }
+  #form {
+    padding: 5px 0px 5px 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  /* --------------------------------------------------- Parte debaixo Corpo */
+  .contato-header nav ul li a {
+    text-decoration: none;
+  }
+  .corpo-contato {
+    display: flex;
+    padding: 0 80px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .maps {
+    width: 400px;
+  }
+
+  .alinhadiv1 {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .maps {
+    width: 400px;
+  }
+
+  .alinhadiv1 {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .maps {
+    width: 100%;
+    justify-content: center;
+  }
+  .alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    /* padding-right: 128px;
+    padding-left: 128px; */
+  }
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 228px;
+    margin-right: 228px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin-left: 205px;
+    margin-right: 205px;
+  }
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 205px;
+    margin-right: 205px;
+  }
+  .corpo-contato {
+    display: flex;
+    padding: 0 20px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+  .alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100f;
+  }
+
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgba(3, 3, 3, 0.712);
+  }
+
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+  .botao {
+    background-color: Transparent;
+    border-style: double;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-family: "Raleway";
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+  }
+  #form {
+    padding: 5px 0px 5px 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+  .form-control {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  .contato-header nav ul li a {
+    text-decoration: none;
+  }
+  .corpo-contato {
+    display: flex;
+    padding: 0 20px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+  .dados-corpo {
+    margin-bottom: 35px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: small;
+    text-transform: inherit;
+    padding: 30px 0 0;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 6px;
+      margin-bottom: -10px;
+    }
+  }
+  .paragrafo ul li {
+    list-style: none;
+    text-align: center;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
+    animation: text1 2s 1;
+  }
+  .alinhadiv1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 105px;
+    margin-right: 105px;
+  }
+  #form {
+    padding: 5px 0px 5px 25px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+  .form-control {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 40px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-right: 160px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 286px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-right: 276px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+
+  .animacao {
+    position: relative;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .animacao.ativo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: inherit;
+    padding: 30px 0 0;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 2px;
+      margin-bottom: -10px;
+    }
+  }
+  .paragrafo ul li {
+    list-style: none;
+    text-align: center;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
+    animation: text1 2s 1;
+  }
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 30px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-right: 120px;
+  }
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 286px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-right: 276px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    min-height: 185px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+  }
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: inherit;
+    font-size: 28px;
+    padding: 90px 0 0;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 6px;
+      margin-bottom: -10px;
+    }
+  }
+  .paragrafo ul li {
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    animation: text1 2s 1;
+  }
+  @keyframes text1 {
+    0% {
+      color: white;
+      margin-bottom: -40px;
+    }
+  }
+  .maps {
+    width: 300px;
+    height: 300px;
+  }
+  .alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100f;
+  }
+
+  .alinhadiv1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Raleway";
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgba(3, 3, 3, 0.712);
+  }
+
+  .alinhadiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 142px; */
+  }
+
+  .mb-3 {
+    margin-left: 50px;
+  }
+  .botao {
+    background-color: Transparent;
+    border-style: double;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-family: "Raleway";
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
+  }
+  #form {
+    /* padding: 0 80px 0 80px; */
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+  }
+
+  .form-control::placeholder {
+    font-size: 16px;
+  }
+
+  /* .form-label {
+    margin-bottom: 0.5rem;
+  }
+  .contato-header nav ul li a {
+    text-decoration: none;
+  } */
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 60px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 15px 15px 50px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-right: 0px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 126px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-right: 122px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+
+  .animacao {
+    position: relative;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .animacao.ativo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .dados-corpo {
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .fundo-img {
+    min-height: 160px;
+  }
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 40px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-left: 0px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 130px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-right: 130px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+
+  .animacao {
+    position: relative;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .animacao.ativo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .fundo-img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    width: 100%;
+  }
+  .footer-site{
+    background-color: #000000;
+    width: 105%;
+}
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: inherit;
+    font-size: 20px;
+    padding: 90px 0 0;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 4px;
+      margin-bottom: -10px;
+    }
+  }
+  .paragrafo ul li {
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    animation: text1 2s 1;
+  }
+  .fundo-img {
+    width: 100%;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.555);
+  }
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 30px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 132px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-right: 128px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+
+  .animacao {
+    position: relative;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .animacao.ativo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .dados-corpo{
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .h1-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: inherit;
+    font-size: 28px;
+    padding: 80px 0 0;
+    margin-left: 18px;
+    color: rgba(82, 76, 76, 0.836);
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: white;
+      margin-bottom: -10px;
+    }
+    30% {
+      letter-spacing: 1px;
+      margin-bottom: -10px;
+    }
+  }
+  .corpo-contato {
+    flex-direction: column;
+    padding: 0 10px;
+    color: #fff;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid rgba(34, 34, 34, 0.404);
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+  }
+
+  .dados-corpo {
+    margin-bottom: 35px;
+  }
+
+  .dados-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .dados-corpo a:hover {
+    text-decoration: none;
+  }
+  .horarios-corpo {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 35px;
+    margin-left: 150px;
+  }
+  .horarios-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .horarios-corpo a:hover {
+    text-decoration: none;
+  }
+  .endereco-corpo {
+    margin-bottom: 35px;
+    margin-right: 120px;
+  }
+  .endereco-corpo a {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+    
+  }
+  .endereco-corpo a:hover {
+    text-decoration: underline;
+  }
+  .h2-corpo-contato {
+    color: rgba(3, 3, 3, 0.712);
+    margin-top: 35px;
+  }
+
+  .animacao {
+    position: relative;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+
+  .animacao.ativo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .dados-corpo {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+  .horarios-corpo {
+    margin-right: 5px;
+  }
+}

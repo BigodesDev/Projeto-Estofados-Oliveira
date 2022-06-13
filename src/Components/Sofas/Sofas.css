@@ -1,0 +1,386 @@
+.section-api-sofas{
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(242,242,242);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 35px;
+}
+
+.titulo-sofa {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  text-transform: inherit;
+  padding-top: 35px;
+  margin-bottom: 0px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+.titulo-sofas {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-transform: inherit;
+  margin: 0px;
+  padding-top: 70px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+.titulo-sofass {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-transform: inherit;
+  margin: 0px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
+
+.conteudo-sofas {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 0;
+  }
+  
+  .sofas-imagens {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .sofas-text {
+    background-color: rgb(242,242,242);
+    color: #000;
+    font-family: 'raleway';
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+
+  }
+
+  .imagens-sofa-tamanho{
+      width: 1440px;
+      max-width: 100%;
+}
+
+ @media (max-width: 767px){
+  .imagens-sofa-tamanho{
+        width: 270px;
+        max-width: 100%;
+  }
+  .sofas-imagens{
+      width: 270px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 270px;
+    max-width: 100%;
+  }
+}
+
+  @media (max-width: 714px){
+    .section-api-sofas{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 611px){
+    .imagens-sofa-tamanho{
+        width: 260px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 260px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 260px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 591px){
+    .imagens-sofa-tamanho{
+        width: 250px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 250px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 250px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 571px){
+    .imagens-sofa-tamanho{
+        width: 240px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 240px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 240px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 551px){
+    .imagens-sofa-tamanho{
+        width: 230px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 230px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 230px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 534px){
+    .titulo-sofas {
+      font-size: 30px;
+    }
+    .titulo-sofa {
+      font-size: 40px;
+    }
+    
+  }
+
+
+  @media (max-width: 531px){
+    .imagens-sofa-tamanho{
+        width: 220px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 220px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 220px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 511px){
+    .imagens-sofa-tamanho{
+        width: 210px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 210px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 210px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 491px){
+    .imagens-sofa-tamanho{
+        width: 200px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 200px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 200px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 471px){
+    .imagens-sofa-tamanho{
+        width: 190px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 190px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 190px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 451px){
+    .imagens-sofa-tamanho{
+        width: 180px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 180px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 180px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 431px){
+    .imagens-sofa-tamanho{
+        width: 170px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 170px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 170px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 411px){
+    .imagens-sofa-tamanho{
+        width: 160px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 160px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 160px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 391px){
+    .imagens-sofa-tamanho{
+        width: 150px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 150px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 150px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 371px){
+    .imagens-sofa-tamanho{
+        width: 140px;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: 140px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: 140px;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 364px){
+    .imagens-sofa-tamanho{
+        width: auto;
+        max-width: 100%;
+    }
+    .sofas-imagens{
+      width: auto;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width: auto;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 319px){
+    .section-api-sofas{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  }
+@media (max-width:300px){
+  .imagens-sofa-tamanho{
+    width:  276px;
+    max-width: 100%;
+}
+
+  .sofas-imagens{
+    width: 276px;
+    max-width: 100%;
+}
+.conteudo-sofas{
+  width:  276px;
+  max-width: 100%;
+}
+}
+@media (max-width:290px){
+  .imagens-sofa-tamanho{
+    width:  266px;
+    max-width: 100%;
+}
+
+  .sofas-imagens{
+    width: 266px;
+    max-width: 100%;
+}
+.conteudo-sofas{
+  width:  266px;
+  max-width: 100%;
+}
+}
+
+  @media (max-width: 280px){
+    .section-api-sofas{
+        padding-left: 5px;
+        padding-right: 5px;
+        /* width: 280px; */
+    }
+    .imagens-sofa-tamanho{
+      width:  260px;
+      max-width: 100%;
+  }
+  
+    .sofas-imagens{
+      width: 260px;
+      max-width: 100%;
+  }
+  .conteudo-sofas{
+    width:  260px;
+    max-width: 100%;
+  }
+    
+  }
+
+  @media (max-width: 236px){
+    .titulo-sofas {
+      font-size: 20px;
+    }
+    .titulo-sofa {
+      font-size: 30px;
+    }
+    
+  }

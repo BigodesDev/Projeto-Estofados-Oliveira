@@ -1,0 +1,62 @@
+.contato-header nav ul li a {
+  text-decoration: none;
+}
+.corpo-contato {
+  display: flex;
+  padding: 0 80px;
+  color: #fff;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid rgba(34, 34, 34, 0.404);
+  box-shadow: 15px 15px 50px rgb(0 0 0);
+}
+
+.corpo-contato a {
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.dados-corpo {
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.dados-corpo a {
+  color: rgba(0, 0, 0, 0.822);
+  text-decoration: none;
+}
+.dados-corpo a:hover {
+  text-decoration: none;
+  color: rgba(82, 76, 76, 0.836);
+}
+.horarios-corpo {
+  color: rgba(0, 0, 0, 0.822);
+  margin: auto;
+  margin-bottom: 35px;
+}
+.horarios-corpo a {
+  color: rgba(0, 0, 0, 0.822);
+  text-decoration: none;
+}
+.horarios-corpo a:hover {
+  text-decoration: none;
+  color: rgba(82, 76, 76, 0.836);
+}
+.endereco-corpo {
+  margin-bottom: 35px;
+}
+.endereco-corpo a {
+  color: rgba(0, 0, 0, 0.822);
+  text-decoration: none;
+}
+.endereco-corpo a:hover {
+  text-decoration: underline;
+  color: rgba(82, 76, 76, 0.836);
+}
+.h2-corpo-contato {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(3, 3, 3, 0.712);
+  margin-top: 35px;
+}

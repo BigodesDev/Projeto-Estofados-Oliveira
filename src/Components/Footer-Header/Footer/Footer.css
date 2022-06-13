@@ -1,0 +1,161 @@
+/* Estofados Oliveira © 2022. Todos direitos reservados. */
+/* --------------------------------------------------------- Footer */
+
+.footer-site{
+    background-color: #000000;
+    width: 100%;
+}
+
+.image-social{
+    width: 50px;
+    display: flex;
+}
+
+.nav-footer {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+/* UF = UL do Footer */
+.ul-social{
+    display: flex;
+    padding-inline-start: 0px;
+    margin: 0px;
+}
+
+/* LF,LIF = LI do Footer */
+.a-link-social{
+    margin: 5px;
+}
+
+.li-copyright{
+    list-style: none;
+    font-size: 16px;
+    color: #FFFFFF;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.li-copyright-bigodes{
+    list-style: none;
+    font-size: 16px;
+    color: #FFFFFF;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.li-copyright-bigodes:hover{
+    list-style: none;
+    font-size: 16px;
+    color: rgb(3, 152, 232);  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.li-rede-social{
+    list-style: none;
+    font-size: 16px;
+    color: #FFFFFF;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.ul-social .li-rede-social{
+    display: flex;
+    height: 100px;
+    align-items:center;
+}
+
+@media (max-width: 712px) {
+
+    .li-rede-social{
+        font-size: 13px;
+    }
+
+    .li-copyright{
+        font-size: 13px;
+    }
+
+    .a-link-social{
+        margin: 5px;
+    }
+
+    .nav-footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .li-rede-social{
+        font-size: 13px;
+    }
+
+    .li-copyright{
+        font-size: 13px;
+    }
+
+    .a-link-social{
+        margin: 5px;
+    }
+
+    .nav-footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:332px) {
+
+    .li-rede-social{
+        font-size: 12px;
+    }
+
+    .li-copyright{
+        font-size: 12px;
+    }
+
+    .image-social{
+        width: 40px;
+    }
+}
+
+@media (max-width:319px) {
+
+    .li-rede-social{
+        font-size: 10px;
+    }
+
+    .li-copyright{
+        font-size: 10px;
+    }
+
+    .image-social{
+        width: 40px;
+    }
+
+    .nav-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

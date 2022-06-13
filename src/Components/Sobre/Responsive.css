@@ -1,0 +1,217 @@
+
+@media (max-width: 2560px) { 
+    .title-sobre{
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        padding-top: 35px;
+        /* margin-top: 35px; */
+        /* color: black; */
+    }
+    .nav-sobre{
+        display: flex;
+        margin-top:35px;
+        margin-left: 185px; 
+        margin-right: 185px;
+        padding-bottom: 35px;
+    }
+    .img-sobre{
+        display: block;
+        max-width: 500px;
+        max-height: 500px; 
+        margin-bottom: 30px;
+        margin-top:14px;
+    }
+    
+    .section-sobre{
+        
+        font-family: 'Raleway', sans-serif;
+        margin-left: 50px;
+        display: flex;
+       flex-direction: column;
+    }
+    .section-sobre p{
+        margin-top: 10px;
+    }
+} 
+
+@media (max-width: 1220px) { 
+    .title-sobre{
+        display: flex;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        padding-top: 35px;
+        /* color: black; */
+        
+
+    }
+    .nav-sobre{
+        display: flex;
+        margin-top:35px;
+        margin-left: 80px; 
+        margin-right: 80px;
+        padding-bottom: 35px;
+    }
+    .img-sobre{
+        display: block;
+        max-width: 500px;
+        max-height: 500px; 
+        margin-bottom: 30px;
+        margin-top:14px;
+    }
+    
+    .section-sobre{
+        
+        font-family: 'Raleway', sans-serif;
+        margin-left: 50px;
+        display: flex;
+       flex-direction: column;
+    }
+    .section-sobre p{
+        margin-top: 10px;
+    }
+} 
+@media (max-width: 1010px) { 
+    .title-sobre{
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        padding-top: 35px;
+        /* color: black; */
+        
+        
+
+    }
+    .nav-sobre{
+        display: flex;
+        margin-left: 80px;
+        flex-direction: column;
+        margin-right: 80px;
+        padding-bottom: 35px;
+    }
+    .img-sobre{
+        display: block;
+        max-width: 900px;
+        max-height: 800px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .section-sobre{
+        
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        /* margin-right: 500px; */
+        font-size: 15px;
+        margin-bottom: 35px;
+        margin-top:35px;
+        margin-left: 0;
+        
+    
+    }
+    .section-sobre p{
+        margin-top: 10px;
+        /* color: black; */
+    }
+} 
+
+
+@media (max-width: 768px) { 
+    .title-sobre{
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        padding-top: 35px;
+        /* color: black; */
+        
+        
+
+    }
+    .nav-sobre{
+        display: flex;
+        margin-left: 80px;
+        flex-direction: column;
+        margin-right: 80px;
+        padding-bottom: 35px;
+    }
+    .img-sobre{
+        display: block;
+        max-width: 600px;
+        max-height: 600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .section-sobre{
+        
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        /* margin-right: 500px; */
+        font-size: 15px;
+        margin-bottom: 35px;
+        margin-top:35px;
+        margin-left: 0;
+        
+    
+    }
+    .section-sobre p{
+        margin-top: 10px;
+        /* color: black; */
+    }
+ }
+
+
+
+@media (max-width: 700px) { 
+    .title-sobre{
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        padding-top: 35px;
+        /* color: black; */
+        
+        
+
+    }
+    .nav-sobre{
+        display: flex;
+        margin-left: 30px;
+        flex-direction: column;
+        margin-right: 30px;
+        padding-bottom: 35px;
+    }
+    .img-sobre{
+        display: block;
+        max-width: 600px;
+        max-height: 600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .section-sobre{
+        
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 0px 0px 0px;
+        /* margin-right: 500px; */
+        font-size: 15px;
+        margin-bottom: 35px;
+        margin-top:35px;
+        margin-left: 0;
+    
+    }
+    .section-sobre p{
+        margin-top: 10px;
+        /* color: black; */
+    }
+ }
+
+
+
+
+
+
+
